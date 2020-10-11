@@ -1,0 +1,66 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: #dfcdc3;
+}
+.title {
+  color: #3c4245;
+}
+.question h1 {
+  font-size: 22px;
+}
+.btn-answer {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  background-color: #719192;
+  color: white;
+  border: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-answer:hover {
+  opacity: 0.8;
+}
+.score-wrapper {
+  background-color: #719192;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  /* height: 60px; */
+  text-align: center;
+}
+.correct {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0.3em;
+}
+.incorrect {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1em;
+}
+.user-greeting {
+  font-size: 18px;
+  color: #2d4059;
+}
+.pass-msg {
+  background-color: #91d18b;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  width: 200px;
+  margin: 0 auto;
+}
+.fail-msg {
+  background-color: #ea5455;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  width: 200px;
+  margin: 0 auto;
+}
